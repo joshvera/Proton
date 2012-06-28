@@ -1663,6 +1663,7 @@
 			baseConfigurationReference = D0F5CD0214C578BF00966B2D /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Profile;
@@ -1694,6 +1695,7 @@
 			baseConfigurationReference = D0F5CD0214C578BF00966B2D /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1703,6 +1705,7 @@
 			baseConfigurationReference = D0F5CD0214C578BF00966B2D /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
